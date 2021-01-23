@@ -9,7 +9,7 @@ The Arduino UNO Board is the basic board
 for beginners doing project in Arduino.
 
 As from the previuos project, without
-microcontroller, you're only control is 
+a microcontroller, you're only control is 
 through an external switch. And you
 are just limited to that.
 
@@ -55,11 +55,10 @@ The 7-segment display will either use `cathode` or
 
 ## The Arduino Code
 There are just two default functions in Arduino:
-
-`void setup` and `void loop`
+`void setup` and `void loop`.
 
 `void setup` is where you tell the Arduino board about
-the common setup just like whether a pin will
+the common setup just like whether a digital pin will
 be used as output or input.
 
 `void loop` is where the Arduino board executes
@@ -76,3 +75,5 @@ here are the steps to create the project:
 that is exactly --- 
 
 3. Copy paste the program below:
+
+4. Of course, simulate the program! 
