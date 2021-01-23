@@ -25,8 +25,10 @@ components in several ways.
 
 ### The GND
 The GND is the floating ground to complete
-the circuit. Remember, in electrical setup
-the earth ground is used extensively. 
+the circuit. Remember, in an electrical setup
+the earth ground is used extensively. In
+electronics, it's the convenience to use
+a floating ground.
 
 ## The BreadBoard
 Breadboards are convenience for you to
