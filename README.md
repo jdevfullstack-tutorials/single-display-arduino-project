@@ -50,6 +50,9 @@ by using LEDs to serve as pixels.
 But here in our project, we want to use the 7-segment
 display as an upgrade from the LEDs.
 
+The 7-segment display will either use `cathode` or 
+`anode`. Make sure you got it right.
+
 ## The Arduino Code
 There are just two default functions in Arduino:
 
@@ -62,3 +65,14 @@ be used as output or input.
 `void loop` is where the Arduino board executes
 all the commands you put there just like
 `digitalWrite` whether high or low.
+
+## Project Guide
+Using the TinkerCAD, 
+here are the steps to create the project:
+
+1. Follow the proper wiring:
+
+2. Close the circuit by the GND. Use a resistor
+that is exactly --- 
+
+3. Copy paste the program below:
