@@ -38,5 +38,14 @@ the metal strip at the bottom of a breadboard
 will do the job.
 
 ## The 7-segment Display
+To not complicate things, we just use one 7-segment
+Display for the output. Remember, computer monitors 
+concept of display is the same: the dot-and-no-dot
+pattern to create a display, whether an image
+or letter or numbers. You can do the same thing
+by using LEDs to serve as pixels.
+
+But here in our project, we want to use the 7-segment
+display as an upgrade from the LEDs.
 
 ## The Arduino Code
