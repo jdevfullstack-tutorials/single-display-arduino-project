@@ -49,3 +49,14 @@ But here in our project, we want to use the 7-segment
 display as an upgrade from the LEDs.
 
 ## The Arduino Code
+There are just two default functions in Arduino:
+
+`void setup` and `void loop`
+
+`void setup` is where you tell the Arduino board about
+the common setup just like whether a pin will
+be used as output or input.
+
+`void loop` is where the Arduino board executes
+all the commands you put there just like
+`digitalWrite` whether high or low.
