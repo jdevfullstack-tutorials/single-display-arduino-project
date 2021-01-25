@@ -6,7 +6,7 @@ a 7-segment display and basic programming.
 
 ## The Arduino UNO Board
 
-![board](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src1.png?token=ALHJF4G3P5I36AWVB5IPUGTABY432)
+![board](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src1.png?token=ALHJF4GYZGSQPDDF2FZJFOLABY57A)
 
 The Arduino UNO Board is the basic board
 for beginners doing project in Arduino.
