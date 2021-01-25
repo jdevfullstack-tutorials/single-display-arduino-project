@@ -43,6 +43,8 @@ the metal strip at the bottom of a breadboard
 will do the job.
 
 ## The 7-segment Display
+![display](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src2.png?token=ALHJF4AUK36KCLDJMPZEJADABY5LI)
+
 To not complicate things, we just use one 7-segment
 Display for the output. Remember, computer monitors 
 concept of display is the same: the dot-and-no-dot
