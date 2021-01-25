@@ -34,6 +34,8 @@ electronics, it's the convenience to use
 a floating ground.
 
 ## The BreadBoard
+![breadboard](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src3.png?token=ALHJF4AVU3BI6C6P3HIPWGLABY54K)
+
 Breadboards are convenience for you to
 simply put things in place. Plus,
 it provides connections either horizontally
