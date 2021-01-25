@@ -6,7 +6,7 @@ a 7-segment display and basic programming.
 
 ## The Arduino UNO Board
 
-![board](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src1.png?token=ALHJF4GYZGSQPDDF2FZJFOLABY57A)
+![board](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src1.png?raw=true)
 
 The Arduino UNO Board is the basic board
 for beginners doing project in Arduino.
@@ -34,7 +34,7 @@ electronics, it's the convenience to use
 a floating ground.
 
 ## The BreadBoard
-![breadboard](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src3.png?token=ALHJF4AVU3BI6C6P3HIPWGLABY54K)
+![breadboard](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src3.png?raw=true)
 
 Breadboards are convenience for you to
 simply put things in place. Plus,
@@ -45,7 +45,7 @@ the metal strip at the bottom of a breadboard
 will do the job.
 
 ## The 7-segment Display
-![display](https://raw.githubusercontent.com/xdvrx1/single-display-arduino-project/main/res/src2.png?token=ALHJF4E67TU2NNRC2ZXBRYDABY6GM)
+![display](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src2.png?raw=true)
 
 To not complicate things, we just use one 7-segment
 Display for the output. Remember, computer monitors 
