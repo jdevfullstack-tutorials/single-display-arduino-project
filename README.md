@@ -77,6 +77,9 @@ Using the TinkerCAD,
 here are the steps to create the project:
 
 1. Follow the proper wiring:
+Also make sure that you change the
+7-segment Display common terminal to
+`cathode`.
 
 2. Close the circuit by the GND. Use a resistor
 that is exactly --- 
