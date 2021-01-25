@@ -77,3 +77,6 @@ that is exactly ---
 3. Copy paste the program below:
 
 4. Of course, simulate the program! 
+
+5. Challenge: add a border using LEDs and 
+display letters instead of numbers.
