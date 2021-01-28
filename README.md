@@ -11,10 +11,10 @@ a 7-segment display and basic programming.
 ![board](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src1.png?raw=true)
 
 The Arduino UNO Board is the basic board
-for beginners doing project in Arduino.
+for beginners doing projects in Arduino.
 
-As from the previuos project, without
-a microcontroller, you're only control is 
+As from the previous project, without
+a microcontroller, your only control is 
 through an external switch. And you
 are just limited to that.
 
@@ -42,7 +42,7 @@ a floating ground.
 ## The BreadBoard
 ![breadboard](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src3.png?raw=true)
 
-Breadboards are convenience for you to
+Breadboards are a convenience for you to
 simply put things in place. Plus,
 it provides connections either horizontally
 or vertically for further ease. Because
@@ -54,7 +54,7 @@ will do the job.
 ![display](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src2.png?raw=true)
 
 To not complicate things, we just use one 7-segment
-Display for the output. Remember, computer monitors 
+Display for the output. Remember, computer monitors' 
 concept of display is the same: the dot-and-no-dot
 pattern to create a display, whether an image
 or letter or numbers. You can do the same thing
@@ -293,7 +293,7 @@ The code will simply have the countdown
 but the individual functions for a certain
 number can be used several times for your
 own version. Simply invoke the function
-inside `void loop`. 
+inside the `void loop`. 
 
 4. Of course, simulate the program! 
 
