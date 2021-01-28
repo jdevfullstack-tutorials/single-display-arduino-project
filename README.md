@@ -1,5 +1,7 @@
 # Display (Output) Arduino Project
 
+![sample project](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src8.png?raw=true)
+
 This is a simple project in Arduino that uses 
 the breadboard, the microcontroller, 
 a 7-segment display and basic programming.
