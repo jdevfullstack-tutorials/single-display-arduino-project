@@ -62,7 +62,8 @@ But here in our project, we want to use the 7-segment
 display as an upgrade from the LEDs.
 
 The 7-segment display will either use `cathode` or 
-`anode`. Make sure you got it right.
+`anode`. Make sure you got it right. It depends on
+your circuit design.
 
 ## The Arduino Code
 There are just two default functions in Arduino:
