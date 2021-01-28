@@ -5,6 +5,8 @@
 This is a simple project in Arduino that uses 
 the breadboard, the microcontroller, 
 a 7-segment display and basic programming.
+Take note, there are several ways to do this 
+same project but we'll focus on one.
 
 ## The Arduino UNO Board
 
@@ -61,7 +63,9 @@ or letter or numbers. You can do the same thing
 by using LEDs to serve as pixels.
 
 But here in our project, we want to use the 7-segment
-display as an upgrade from the LEDs.
+display as an upgrade from the basic LEDs. It's called
+7-segment Display because there are 7 segments of
+LEDs.
 
 ![display2](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src7.png?raw=true)
 
