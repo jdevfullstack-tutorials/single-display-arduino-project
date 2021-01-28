@@ -4,7 +4,7 @@
 
 This is a simple project in Arduino that uses 
 the breadboard, the microcontroller, 
-a 7-segment display and basic programming.
+a 7-Segment Display and basic programming.
 Take note, there are several ways to do this 
 same project but we'll focus on one.
 
@@ -52,24 +52,24 @@ of this, you avoid overlapping wires:
 the metal strip at the bottom of a breadboard
 will do the job.
 
-## The 7-segment Display
+## The 7-Segment Display
 ![display](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src2.png?raw=true)
 
-To not complicate things, we just use one 7-segment
+To not complicate things, we just use one 7-Segment
 Display for the output. Remember, computer monitors' 
 concept of display is the same: the dot-and-no-dot
 pattern to create a display, whether an image
 or letter or numbers. You can do the same thing
 by using LEDs to serve as pixels.
 
-But here in our project, we want to use the 7-segment
+But here in our project, we want to use the 7-Segment
 display as an upgrade from the basic LEDs. It's called
-7-segment Display because there are 7 segments of
+7-Segment Display because there are seven segments of
 LEDs.
 
 ![display2](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src7.png?raw=true)
 
-The 7-segment display will either use `cathode` or 
+The 7-Segment Display will either use `cathode` or 
 `anode`. Make sure you got it right. It depends on
 your circuit design.
 
@@ -91,7 +91,7 @@ here are the steps to create the project:
 
 1. Follow the proper wiring:
 Also make sure that you change the
-7-segment Display common terminal to
+7-Segment Display common terminal to
 `cathode`.
 
 ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
@@ -301,8 +301,14 @@ inside the `void loop`.
 
 4. Of course, simulate the program! 
 
-5. Challenge: add a border using LEDs
-with your own pattern of blinking and 
-make the `7-segment Display` component 
+5. Final Version: add a border using LEDs
+with your own pattern of blinking or
+group of LEDs of your own style.
+Make the `7-Segment Display` component 
 display letters to form words that have
-significance to you.
+significance to you. There should be
+at least 2 words presented and another
+two group of numbers like your birthday,
+year you were born, significant date 
+in your life, lucky numbers for you, etc. 
+Explain the significance by using comments.
