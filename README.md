@@ -92,6 +92,18 @@ Also make sure that you change the
 
 ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
+wiring:
+|pin|terminal| 
+|---|---|
+|13|G|
+|12|F|  
+|11|A|
+|10|B|
+|9|E|
+|8|D|
+|7|C|
+|6|DP|
+
 2. Close the circuit by the GND. Use a resistor
 that is exactly --- 
 
