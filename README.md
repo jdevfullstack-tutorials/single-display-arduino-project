@@ -109,6 +109,10 @@ that is exactly 200 ohms (left resistor
 when facing the screen) and 100 ohms for
 the other one.
 
+![left](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src10.png?raw=true)
+
+![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
+
 3. Copy paste the program below:
 
 ```
