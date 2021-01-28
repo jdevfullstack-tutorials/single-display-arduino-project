@@ -29,6 +29,8 @@ encountered because they can be used by
 components in several ways.
 
 ### The GND
+![gnd](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src5.png?raw=true)
+
 The GND is the floating ground to complete
 the circuit. Remember, in an electrical setup
 the earth ground is used extensively. In
