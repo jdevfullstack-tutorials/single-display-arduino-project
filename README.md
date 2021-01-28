@@ -287,4 +287,3 @@ void loop(void)
 with your own pattern of blinking and 
 display letters to form words that have
 significance to you.
-have significant  .
