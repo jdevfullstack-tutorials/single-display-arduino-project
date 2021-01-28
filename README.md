@@ -22,8 +22,7 @@ can build digital devices that you want
 to build.
 
 ### The Digital Pins
-[pins](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src4.png?raw=true
-)
+![pins](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src4.png?raw=true)
 
 The digital pins are the very first to be 
 encountered because they can be used by
