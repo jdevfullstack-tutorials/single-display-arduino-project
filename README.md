@@ -285,5 +285,8 @@ void loop(void)
 
 4. Of course, simulate the program! 
 
-5. Challenge: add a border using LEDs and 
-display letters instead of numbers.
+5. Challenge: add a border using LEDs
+with your own pattern of blinking and 
+display letters to form words that have
+significance to you.
+have significant  .
