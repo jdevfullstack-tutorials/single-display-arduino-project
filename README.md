@@ -289,6 +289,12 @@ void loop(void)
 }
 ```
 
+The code will simply have the countdown
+but the individual functions for a certain
+number can be used several times for your
+own version. Simply invoke the function
+inside `void loop`. 
+
 4. Of course, simulate the program! 
 
 5. Challenge: add a border using LEDs
