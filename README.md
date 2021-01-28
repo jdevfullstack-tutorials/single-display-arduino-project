@@ -94,7 +94,7 @@ Also make sure that you change the
 
 wiring:
 |pin|terminal| 
-|---|---|
+|:---:|:---:|
 |13|G|
 |12|F|  
 |11|A|
