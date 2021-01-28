@@ -93,7 +93,7 @@ Also make sure that you change the
 ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
 wiring:
-|pin|terminal| 
+|Arduino Pin|Segment Pin| 
 |:---:|:---:|
 |13|G|
 |12|F|  
