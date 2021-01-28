@@ -61,9 +61,13 @@ by using LEDs to serve as pixels.
 But here in our project, we want to use the 7-segment
 display as an upgrade from the LEDs.
 
+![display2](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src7.png?raw=true)
+
 The 7-segment display will either use `cathode` or 
 `anode`. Make sure you got it right. It depends on
 your circuit design.
+
+![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
 ## The Arduino Code
 There are just two default functions in Arduino:
@@ -85,6 +89,8 @@ here are the steps to create the project:
 Also make sure that you change the
 7-segment Display common terminal to
 `cathode`.
+
+![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
 2. Close the circuit by the GND. Use a resistor
 that is exactly --- 
