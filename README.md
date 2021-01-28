@@ -42,7 +42,7 @@ a floating ground.
 ## The BreadBoard
 ![breadboard](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src3.png?raw=true)
 
-Breadboards are a convenience for you to
+The breadboard is your convenience for you to
 simply put things in place. Plus,
 it provides connections either horizontally
 or vertically for further ease. Because
