@@ -285,5 +285,6 @@ void loop(void)
 
 5. Challenge: add a border using LEDs
 with your own pattern of blinking and 
+make the `7-segment Display` component 
 display letters to form words that have
 significance to you.
