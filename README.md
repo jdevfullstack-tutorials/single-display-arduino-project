@@ -67,8 +67,6 @@ The 7-segment display will either use `cathode` or
 `anode`. Make sure you got it right. It depends on
 your circuit design.
 
-![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
-
 ## The Arduino Code
 There are just two default functions in Arduino:
 `void setup` and `void loop`.
