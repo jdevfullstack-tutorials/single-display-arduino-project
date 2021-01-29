@@ -292,7 +292,6 @@ void loop(void)
 
 }
 ```
-
 The code will simply have the countdown
 but the individual functions for a certain
 number can be used several times for your
