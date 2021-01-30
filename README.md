@@ -49,8 +49,8 @@ simply put things in place. Plus,
 it provides connections either horizontally
 or vertically for further ease. Because
 of this, you avoid overlapping wires:
-the metal strip at the bottom of a breadboard
-will do the job.
+the metal strip at the bottom provides the
+connection.
 
 ## The 7-Segment Display
 ![display](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src2.png?raw=true)
