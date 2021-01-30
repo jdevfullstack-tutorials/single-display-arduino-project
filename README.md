@@ -3,7 +3,7 @@
 ![sample project](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src8.png?raw=true)
 
 This is a simple project in Arduino that uses 
-the breadboard, the microcontroller, 
+the breadboard, the Arduino UNO Board, 
 a 7-Segment Display and basic programming.
 Take note, there are several ways to do this 
 same project but we'll focus on one.
