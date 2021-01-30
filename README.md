@@ -65,7 +65,7 @@ or letter or numbers. You can do the same thing
 by using LEDs to serve as pixels.
 
 But here in our project, we want to use the 7-Segment
-display as an upgrade from the basic LEDs. It's called
+Display as an upgrade from the basic LEDs. It's called
 7-Segment Display because there are seven segments of
 LEDs.
 
