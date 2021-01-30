@@ -4,7 +4,7 @@
 
 This is a simple project in Arduino that uses 
 the breadboard, the Arduino UNO Board, 
-a 7-Segment Display and basic programming.
+the 7-Segment Display and basic programming.
 Take note, there are several ways to do this 
 same project but we'll focus on one.
 
