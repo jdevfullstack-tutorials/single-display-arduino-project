@@ -122,7 +122,6 @@ right:
 ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
 3. Copy paste the program below:
-
 ```
 unsigned const int A = 13;
 unsigned const int B = 12;
