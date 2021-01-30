@@ -30,7 +30,9 @@ to build.
 
 The digital pins are the very first to be 
 encountered because they can be used by
-components in several ways.
+components in several ways. They will be
+connected to the terminals of electronic
+components.
 
 ### The GND
 ![gnd](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src5.png?raw=true)
