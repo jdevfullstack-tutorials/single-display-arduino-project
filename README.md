@@ -313,7 +313,7 @@ Make the `7-Segment Display` component
 display letters to form words that have
 significance to you. There should be
 at least 2 words presented and another
-two groups of numbers like your birthday,
+two groups of numbers like your birth date,
 year you were born, significant date 
 in your life, lucky numbers for you, etc. 
 Explain the significance by using comments.
