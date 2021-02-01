@@ -100,7 +100,7 @@ here are the steps to create the project:
 7-Segment Display common terminal to
 `cathode`.
 
-![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
+  ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
 2. Follow the proper wiring:
 
