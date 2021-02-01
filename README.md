@@ -88,7 +88,8 @@ all the commands you put there just like
 `digitalWrite` whether high or low. `HIGH` means
 there is a voltage supplied just like turning
 it on through an external switch and `LOW` means
-there is no voltage supplied, voltage that is not
+there is no voltage supplied or there is but is
+too low. Voltage that is not
 sufficient will still be just like no voltage at all.
 
 ## Project Guide
@@ -298,7 +299,7 @@ void loop(void)
 }
 ```
 The code will simply have the countdown
-but the individual functions for a certain
+but the individual function for a certain
 number can be used several times for your
 own version. Simply invoke the function
 inside the `void loop`. 
