@@ -96,14 +96,14 @@ sufficient will still be just like no voltage at all.
 Using the TinkerCAD, 
 here are the steps to create the project:
 
-1. Follow the proper wiring:
-Also make sure that you change the
+1. Make sure that you change the
 7-Segment Display common terminal to
 `cathode`.
 
 ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
-wiring:
+2. Follow the proper wiring:
+
 |Arduino Pin|Segment Pin| 
 |:---:|:---:|
 |13|G|
@@ -115,7 +115,7 @@ wiring:
 |7|C|
 |6|DP|
 
-2. Close the circuit by the GND. Use a resistor
+3. Close the circuit by the GND. Use a resistor
 that is exactly 200 ohms (left resistor
 when facing the screen) and 100 ohms for
 the other one.
