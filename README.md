@@ -136,41 +136,41 @@ the other one.
 
     void setup(void)
     {
-        pinMode(A, OUTPUT);
-        pinMode(B, OUTPUT);
-        pinMode(C, OUTPUT);
-        pinMode(D, OUTPUT);
-        pinMode(E, OUTPUT);
-        pinMode(F, OUTPUT);
-        pinMode(G, OUTPUT);
-        pinMode(H, OUTPUT);
+      pinMode(A, OUTPUT);
+      pinMode(B, OUTPUT);
+      pinMode(C, OUTPUT);
+      pinMode(D, OUTPUT);
+      pinMode(E, OUTPUT);
+      pinMode(F, OUTPUT);
+      pinMode(G, OUTPUT);
+      pinMode(H, OUTPUT);
     }
 
-    //My Functions
-
-    void zero(void) {
-        digitalWrite(A, LOW);
-        digitalWrite(B, HIGH);
-        digitalWrite(C, HIGH);
-        digitalWrite(D, HIGH);
-        digitalWrite(E, HIGH);
-        digitalWrite(F, HIGH);
-        digitalWrite(G, HIGH);
-        digitalWrite(H, LOW);
+    //functions to display
+    //the numbers
+    void displayZero(void) {
+      digitalWrite(A, LOW);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, HIGH);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
     }
 
-    void one(void) {
-        digitalWrite(A, LOW);
-        digitalWrite(B, LOW);
-        digitalWrite(C, LOW);
-        digitalWrite(D, HIGH);
-        digitalWrite(E, LOW);
-        digitalWrite(F, LOW);
-        digitalWrite(G, HIGH);
-        digitalWrite(H, LOW);
+    void displayOne(void) {
+      digitalWrite(A, LOW);
+      digitalWrite(B, LOW);
+      digitalWrite(C, LOW);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, LOW);
+      digitalWrite(F, LOW);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
     }
 
-    void two(void) {
+    void displayTwo(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, LOW);
       digitalWrite(C, HIGH);
@@ -181,7 +181,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void three(void) {
+    void displayThree(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, LOW);
       digitalWrite(C, HIGH);
@@ -192,7 +192,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void four(void) {
+    void displayFour(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
       digitalWrite(C, LOW);
@@ -203,7 +203,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void five(void) {
+    void displayFive(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
       digitalWrite(C, HIGH);
@@ -214,7 +214,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void six(void) {
+    void displaySix(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
       digitalWrite(C, HIGH);
@@ -225,7 +225,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void seven(void) {
+    void displaySeven(void) {
       digitalWrite(A, LOW);
       digitalWrite(B, LOW);
       digitalWrite(C, HIGH);
@@ -236,7 +236,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void eight(void) {
+    void displayEight(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
       digitalWrite(C, HIGH);
@@ -247,7 +247,7 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    void nine(void) {
+    void displayNine(void) {
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);
       digitalWrite(C, HIGH);
@@ -262,34 +262,34 @@ the other one.
     void loop(void)
     {
 
-      nine();
+      displayNine();
       delay(1000);
 
-      eight();
+      displayEight();
       delay(1000);
 
-      seven();
+      displaySeven();
       delay(1000);
 
-      six();
+      displaySix();
       delay(1000);
 
-      five();
+      displayFive();
       delay(1000);
 
-      four();
+      displayFour();
       delay(1000);
 
-      three();
+      displayThree();
       delay(1000);
 
-      two();
+      displayTwo();
       delay(1000);
 
-      one();
+      displayOne();
       delay(1000);
 
-      zero();
+      displayZero();
       delay(1000);
 
     }
