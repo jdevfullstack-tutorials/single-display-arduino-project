@@ -67,7 +67,7 @@ by using LEDs to serve as pixels.
 But here in our project, we want to use the 7-Segment
 Display as an upgrade from the basic LEDs. It's called
 7-Segment Display because there are seven segments of
-LEDs.
+LEDs, forming the number 8 unlighted.
 
 ![display2](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src7.png?raw=true)
 
