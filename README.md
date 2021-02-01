@@ -123,183 +123,183 @@ the other one.
   ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
 4. Copy paste the program below:
-```
-unsigned const int A = 13;
-unsigned const int B = 12;
-unsigned const int C = 11;
-unsigned const int D = 10;
-unsigned const int E = 9;
-unsigned const int F = 8;
-unsigned const int G = 7;
-unsigned const int H = 6;
+    ```
+    unsigned const int A = 13;
+    unsigned const int B = 12;
+    unsigned const int C = 11;
+    unsigned const int D = 10;
+    unsigned const int E = 9;
+    unsigned const int F = 8;
+    unsigned const int G = 7;
+    unsigned const int H = 6;
 
 
-void setup(void)
-{
-  pinMode(A, OUTPUT);
-  pinMode(B, OUTPUT);
-  pinMode(C, OUTPUT);
-  pinMode(D, OUTPUT);
-  pinMode(E, OUTPUT);
-  pinMode(F, OUTPUT);
-  pinMode(G, OUTPUT);
-  pinMode(H, OUTPUT);
-}
+    void setup(void)
+    {
+        pinMode(A, OUTPUT);
+        pinMode(B, OUTPUT);
+        pinMode(C, OUTPUT);
+        pinMode(D, OUTPUT);
+        pinMode(E, OUTPUT);
+        pinMode(F, OUTPUT);
+        pinMode(G, OUTPUT);
+        pinMode(H, OUTPUT);
+    }
 
-//My Functions
+    //My Functions
 
-void zero(void) {
-  digitalWrite(A, LOW);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, HIGH);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void zero(void) {
+        digitalWrite(A, LOW);
+        digitalWrite(B, HIGH);
+        digitalWrite(C, HIGH);
+        digitalWrite(D, HIGH);
+        digitalWrite(E, HIGH);
+        digitalWrite(F, HIGH);
+        digitalWrite(G, HIGH);
+        digitalWrite(H, LOW);
+    }
 
-void one(void) {
-  digitalWrite(A, LOW);
-  digitalWrite(B, LOW);
-  digitalWrite(C, LOW);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void one(void) {
+        digitalWrite(A, LOW);
+        digitalWrite(B, LOW);
+        digitalWrite(C, LOW);
+        digitalWrite(D, HIGH);
+        digitalWrite(E, LOW);
+        digitalWrite(F, LOW);
+        digitalWrite(G, HIGH);
+        digitalWrite(H, LOW);
+    }
 
-void two(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, LOW);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, HIGH);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, LOW);
-  digitalWrite(H, LOW);
-}
+    void two(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, LOW);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, HIGH);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, LOW);
+      digitalWrite(H, LOW);
+    }
 
-void three(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, LOW);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, LOW);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void three(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, LOW);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, LOW);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void four(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, LOW);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void four(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, LOW);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, LOW);
+      digitalWrite(F, LOW);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void five(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, LOW);
-  digitalWrite(E, LOW);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void five(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, LOW);
+      digitalWrite(E, LOW);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void six(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, LOW);
-  digitalWrite(E, HIGH);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void six(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, LOW);
+      digitalWrite(E, HIGH);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void seven(void) {
-  digitalWrite(A, LOW);
-  digitalWrite(B, LOW);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, LOW);
-  digitalWrite(F, LOW);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void seven(void) {
+      digitalWrite(A, LOW);
+      digitalWrite(B, LOW);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, LOW);
+      digitalWrite(F, LOW);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void eight(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, HIGH);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void eight(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, HIGH);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-void nine(void) {
-  digitalWrite(A, HIGH);
-  digitalWrite(B, HIGH);
-  digitalWrite(C, HIGH);
-  digitalWrite(D, HIGH);
-  digitalWrite(E, LOW);
-  digitalWrite(F, HIGH);
-  digitalWrite(G, HIGH);
-  digitalWrite(H, LOW);
-}
+    void nine(void) {
+      digitalWrite(A, HIGH);
+      digitalWrite(B, HIGH);
+      digitalWrite(C, HIGH);
+      digitalWrite(D, HIGH);
+      digitalWrite(E, LOW);
+      digitalWrite(F, HIGH);
+      digitalWrite(G, HIGH);
+      digitalWrite(H, LOW);
+    }
 
-// Start
-void loop(void)
-{
-    
-  nine();
-  delay(1000);
-  
-  eight();
-  delay(1000);
-  
-  seven();
-  delay(1000);
-  
-  six();
-  delay(1000);
-  
-  five();
-  delay(1000);
-  
-  four();
-  delay(1000);
-  
-  three();
-  delay(1000);
-  
-  two();
-  delay(1000);
-  
-  one();
-  delay(1000);
-  
-  zero();
-  delay(1000);
+    // Start
+    void loop(void)
+    {
 
-}
-```
+      nine();
+      delay(1000);
 
- The code will simply have the countdown
- but the individual function for a certain
- number can be used several times for your
-  own version. Simply invoke the function
-  inside the `void loop`. 
+      eight();
+      delay(1000);
+
+      seven();
+      delay(1000);
+
+      six();
+      delay(1000);
+
+      five();
+      delay(1000);
+
+      four();
+      delay(1000);
+
+      three();
+      delay(1000);
+
+      two();
+      delay(1000);
+
+      one();
+      delay(1000);
+
+      zero();
+      delay(1000);
+
+    }
+    ```
+
+     The code will simply have the countdown
+     but the individual function for a certain
+     number can be used several times for your
+     own version. Simply invoke the function
+     inside the `void loop`. 
 
 5. Of course, simulate the program! 
 
