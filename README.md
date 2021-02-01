@@ -98,36 +98,31 @@ here are the steps to create the project:
 
 1. Make sure that you change the
 7-Segment Display common terminal to
-`cathode`.
-
-  ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
+`cathode`. ![setup](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src6.png?raw=true)
 
 2. Follow the proper wiring:
-
-  |Arduino Pin|Segment Pin| 
-  |:---:|:---:|
-  |13|G|
-  |12|F|  
-  |11|A|
-  |10|B|
-  |9|E|
-  |8|D|
-  |7|C|
-  |6|DP|
+    
+    |Arduino Pin|Segment Pin| 
+    |:---:|:---:|
+    |13|G|
+    |12|F|  
+    |11|A|
+    |10|B|
+    |9|E|
+    |8|D|
+    |7|C|
+    |6|DP|
 
 3. Close the circuit by the GND. Use a resistor
 that is exactly 200 ohms (left resistor
 when facing the screen) and 100 ohms for
 the other one.
-
   left:
   ![left](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src10.png?raw=true)
-
   right:
   ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
 4. Copy paste the program below:
-
 ```
 unsigned const int A = 13;
 unsigned const int B = 12;
@@ -300,11 +295,11 @@ void loop(void)
 }
 ```
 
-The code will simply have the countdown
-but the individual function for a certain
-number can be used several times for your
-own version. Simply invoke the function
-inside the `void loop`. 
+ The code will simply have the countdown
+ but the individual function for a certain
+ number can be used several times for your
+  own version. Simply invoke the function
+  inside the `void loop`. 
 
 5. Of course, simulate the program! 
 
