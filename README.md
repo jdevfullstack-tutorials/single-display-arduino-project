@@ -127,6 +127,7 @@ right:
 ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
 4. Copy paste the program below:
+
 ```
 unsigned const int A = 13;
 unsigned const int B = 12;
@@ -298,6 +299,7 @@ void loop(void)
 
 }
 ```
+
 The code will simply have the countdown
 but the individual function for a certain
 number can be used several times for your
