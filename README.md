@@ -126,7 +126,7 @@ left:
 right:
 ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
-3. Copy paste the program below:
+4. Copy paste the program below:
 ```
 unsigned const int A = 13;
 unsigned const int B = 12;
@@ -304,9 +304,9 @@ number can be used several times for your
 own version. Simply invoke the function
 inside the `void loop`. 
 
-4. Of course, simulate the program! 
+5. Of course, simulate the program! 
 
-5. Final Version: add a border using LEDs
+6. Final Version: add a border using LEDs
 with your own pattern of blinking or
 group of LEDs of your own style.
 Make the `7-Segment Display` component 
