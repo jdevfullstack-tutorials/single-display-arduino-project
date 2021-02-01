@@ -258,7 +258,8 @@ the other one.
       digitalWrite(H, LOW);
     }
 
-    // Start
+    //execute the codes
+    //by invoking the functions
     void loop(void)
     {
 
