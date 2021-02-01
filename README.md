@@ -104,27 +104,27 @@ here are the steps to create the project:
 
 2. Follow the proper wiring:
 
-|Arduino Pin|Segment Pin| 
-|:---:|:---:|
-|13|G|
-|12|F|  
-|11|A|
-|10|B|
-|9|E|
-|8|D|
-|7|C|
-|6|DP|
+  |Arduino Pin|Segment Pin| 
+  |:---:|:---:|
+  |13|G|
+  |12|F|  
+  |11|A|
+  |10|B|
+  |9|E|
+  |8|D|
+  |7|C|
+  |6|DP|
 
 3. Close the circuit by the GND. Use a resistor
 that is exactly 200 ohms (left resistor
 when facing the screen) and 100 ohms for
 the other one.
 
-left:
-![left](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src10.png?raw=true)
+  left:
+  ![left](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src10.png?raw=true)
 
-right:
-![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
+  right:
+  ![right](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src9.png?raw=true)
 
 4. Copy paste the program below:
 
