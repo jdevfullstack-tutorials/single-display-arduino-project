@@ -85,7 +85,11 @@ be used as output or input.
 
 `void loop` is where the Arduino board executes
 all the commands you put there just like
-`digitalWrite` whether high or low.
+`digitalWrite` whether high or low. `HIGH` means
+there is a voltage supplied just like turning
+it on through an external switch and `LOW` means
+there is no voltage supplied, voltage that is not
+sufficient will still be just like no voltage at all.
 
 ## Project Guide
 Using the TinkerCAD, 
