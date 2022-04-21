@@ -1,5 +1,7 @@
 # Display (Output) Arduino Project
 
+*`updated 21 April 2022`*
+
 ![sample project](https://github.com/xdvrx1/single-display-arduino-project/blob/main/res/src8.png?raw=true)
 
 This is a simple project in Arduino that uses 
